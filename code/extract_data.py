@@ -21,7 +21,7 @@ def load_metadata(dataset):
 
 
 def load_gene_ids():
-    """加载基因 ID 数据，并生成一个从基因 ID 到基因名称的映射字典。"""
+
     with open("gene_ensg_id_dict.json", "r") as f:
         gene_id_data = json.load(f)
     with open("gene_to_id.json", "r") as f:
